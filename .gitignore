@@ -6,3 +6,5 @@ google_sheets/GServAcc
 
 # The Blue Alliance API Key
 .tba_api_key
+
+*_run.sh

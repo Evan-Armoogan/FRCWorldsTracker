@@ -16,6 +16,4 @@ Running is simple:
 `python main.py --teams 2056 1114 7558 4946 9785 1241 1325 4678 4476 5406 7712 610 1360 2702 11270 9098 10015`
 (This example is for Ontario District teams competing at the World Championship in 2026).
 
-I have provided a basic bash script to run it. Will vary based on Python installation.
-
 Built for Python 3.13+.

@@ -1,6 +1,5 @@
 import argparse
 import typing
-import pytz
 import statbotics
 import google_sheets
 from datetime import datetime
