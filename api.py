@@ -8,7 +8,7 @@ BASE_URL = "https://www.thebluealliance.com/api/v3"
 
 def do_api_call(url: str) -> JSON:
     f = open(".tba_api_key", "r")
-    r = requests.get(url=url, headers={"X-TBA-Auth-Key": f.read()})
+    r = requests.get(url=url, headers={"X-TBA-Auth-Key": f.read().strip()})
     return r.json()
 
 
